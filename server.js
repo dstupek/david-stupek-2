@@ -89,7 +89,7 @@ app.post(
 
 /**
  * @route GET api/auth
- * @desc Authorize user
+ * @desc Authorize user 
  */
 app.get('/api/auth', auth, async (req, res) => {
   try {
